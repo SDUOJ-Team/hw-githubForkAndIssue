@@ -27,6 +27,14 @@ jobs:
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
+      - name: Comment
+        uses: peter-evans/create-or-update-comment@v1
+        with:
+          issue-number: ${{ github.event.issue.number }}
+          body: |
+            OK, robot will check your issue right now!
+            Action running: https://github.com/${{github.repository}}/actions/runs/${{github.run_id}}
+
       - name: Check Answer
         run: python main.py "${{ github.event.issue.body }}"
 
