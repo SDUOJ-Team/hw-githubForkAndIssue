@@ -34,6 +34,7 @@ jobs:
           body: |
             OK, robot will check your issue right now!
             Action running: https://github.com/${{github.repository}}/actions/runs/${{github.run_id}}
+            If there is not a accepted-comment and issue-close event later, something in your homework may be wrong.
 
       - name: Check Answer
         run: python main.py "${{ github.event.issue.body }}"
