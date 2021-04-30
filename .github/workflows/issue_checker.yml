@@ -28,7 +28,7 @@ jobs:
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
       - name: Check Answer
-        run: python main.py "${{ github.event.issue.title }}"
+        run: python main.py "${{ github.event.issue.body }}"
 
       - name: Close Issue
         uses: peter-evans/close-issue@v1
