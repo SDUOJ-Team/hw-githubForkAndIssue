@@ -1,4 +1,4 @@
-# hw-githubRepoFork
+# hw-githubRepoForkAndIssue
 homework: fork github repo to your account.
 
 ### 前言
@@ -13,8 +13,8 @@ homework: fork github repo to your account.
 
 具体步骤如下：
 
-1. 浏览本 [GitHub Repo](https://github.com/SDUOJ-Team/hw-githubRepoFork) 并对其进行 Fork 操作
+1. 浏览本 [GitHub Repo](https://github.com/SDUOJ-Team/hw-githubRepoForkAndIssue) 并对其进行 Fork 操作
 2. 从自己的 account 中查看刚刚 fork 的 repo
-3. 对该 [Repo](https://github.com/SDUOJ-Team/hw-githubRepoFork) 提出 Issue，并根据 Issue 模板填入相关信息
+3. 对该 [Repo](https://github.com/SDUOJ-Team/hw-githubRepoForkAndIssue) 提出 Issue，并根据 Issue 模板填入相关信息
 4. 根据 CI 机器人的返回信息判断本次实践的结果
 
