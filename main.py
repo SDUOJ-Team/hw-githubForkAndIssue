@@ -13,7 +13,7 @@ if __name__ == '__main__':
     response = requests.get("https://github.com/" + url)
     soup = BeautifulSoup(response.text, features='lxml')
     fork_path = soup.find('span', {'class': 'text-small lh-condensed-ultra no-wrap mt-1'}).text.strip()
-    sys.exit(0 if 'forked from SDUOJ-Team/hw-githubRepoForkAndIssue' in fork_path else -1)
+    sys.exit(0 if 'forked from SDUOJ-Team/hw-githubForkAndIssue' in fork_path else -1)
 
 
 
